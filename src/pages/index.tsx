@@ -15,6 +15,8 @@ const Home: NextPage = () => {
         <link href="/favicon.ico" rel="icon" />
       </Head>
 
+      <ConnectButton />
+
       <main className={styles.main}>
         <ConnectButton />
 
